@@ -1,0 +1,255 @@
+.page {
+    max-width: 55em;
+    margin: 0 auto;
+}
+
+body {
+    color: #CEBC81; /* light yellow */
+    background-color: #19181A;  /* dark charcoal gray */
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #B19F9E; /* light mauve */
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Impact";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-family: "Bookman";
+    font-size: 1.9em;
+    font-style: italic;
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    font-family: "Impact", sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 22px 40px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+iframe {
+    margin: 2em auto;
+    display: block;
+}
+
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #B19F9E;    /* light mauve */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+    background-color: #00887a;  /* teal */
+}
+
+.button:active,
+.button:visited:active {
+    color: #B19F9E;
+    background-color: #B19F9E; /* light mauve */
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+    background-color: #B19F9E;    /* mauve */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #00887a;     /* teal */
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: white; /* teal is 00887a */
+}
+
+a:hover, a:focus {
+    color: #00887a;  /* teal */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #00887a; /* teal */
+}
+
+a:visited:active {
+    color: #00887a; /* teal */
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+.page > p:first-of-type {
+    color: #7E8184; /* light gray */
+    font-style: italic;
+}
+
+#button-2 {
+    color: #5D6063;  /* Dark gray */
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #B19F9E;    /* light mauve */
+    font-family: "Palatino";
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer.horizontal {
+    justify-content: space-between;
+}
+
+#survivors img {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+}
+
+#kenya img {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+}
+
+#credits {
+    font-style: italic;
+    color: #7E8184; /* light gray */
+    font-size: 13px;
+}
+
+.column {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+.row {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+#recentinfo {
+    font-style: italic;
+    color: #7E8184;  /* light gray */
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#past {
+    color: white;
+    padding-bottom: 10px;
+    font-style: normal;
+}
+
+#present {
+    color: black;
+}
+
+#genwatch {
+    font-size: 1.3em;
+    color: white;
+    padding-top: 20px;
+}
+
+#term {
+    color: #CEBC81; /* yellow */
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#def2 {
+    font-family: "Bookman";
+    color: #b05f72;   /* pink for def of gen */
+    font-size: 1em;
+    align-items: center;
+}
+
+#definition {
+    font-style: italic;
+    color: #bbb;
+    font-size: 1em;
+    margin-bottom: auto;
+}
